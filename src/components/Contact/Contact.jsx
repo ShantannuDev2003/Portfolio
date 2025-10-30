@@ -10,17 +10,21 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    // Replace the placeholders below with your EmailJS values
+    // - service ID: e.g. "service_xxx"
+    // - template ID: e.g. "template_xxx"
+    // - public key: e.g. "user_xxx" (found in EmailJS dashboard -> Integrations)
     emailjs
       .sendForm(
-        "service_axbtt7a",  // Replace with your EmailJS Service ID
-        "template_1ziboq3",  // Replace with your EmailJS Template ID
+        "service_qdnbq4c",
+        "template_e9bfx9r",
         form.current,
-        "Rz7W9pVF0HdDryNNL"  // Replace with your EmailJS Public Key
+        "s2-igoGxLf1-6oRj0"
       )
       .then(
         () => {
           setIsSent(true);
-          form.current.reset(); // Reset form fields after sending
+          form.current.reset();
           toast.success("Message sent successfully! ✅", {
             position: "top-right",
             autoClose: 3000,
@@ -36,10 +40,6 @@ const Contact = () => {
           toast.error("Failed to send message. Please try again.", {
             position: "top-right",
             autoClose: 3000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
             theme: "dark",
           });
         }
@@ -51,10 +51,8 @@ const Contact = () => {
       id="contact"
       className="flex flex-col items-center justify-center py-24 px-[12vw] md:px-[7vw] lg:px-[20vw]"
     >
-      {/* Toast Container */}
       <ToastContainer />
 
-      {/* Section Title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">CONTACT</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
@@ -63,7 +61,6 @@ const Contact = () => {
         </p>
       </div>
 
-      {/* Contact Form */}
       <div className="mt-8 w-full max-w-md bg-[#0d081f] p-6 rounded-lg shadow-lg border border-gray-700">
         <h3 className="text-xl font-semibold text-white text-center">
           Connect With Me <span className="ml-1">🚀</span>
@@ -98,8 +95,6 @@ const Contact = () => {
             required
             className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
           />
-          
-          {/* Send Button */}
           <button
             type="submit"
             className="w-full bg-gradient-to-r from-purple-600 to-pink-500 py-3 text-white font-semibold rounded-md hover:opacity-90 transition"
