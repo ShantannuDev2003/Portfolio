@@ -209,7 +209,7 @@ export const SkillsInfo = [
       image: ChatAppLogo,
       tags: ["Node.js", "Express.js", "React.js", "MongoDB", "Zustand", "Socket.io"],
       github: "https://github.com/ShantannuDev2003/chat-app-client",
-      webapp: "https://chat-app-client-two-iota.vercel.app/",
+      webapp: "https://chat-app-client-52po.vercel.app/auth",
     },
    
     {
