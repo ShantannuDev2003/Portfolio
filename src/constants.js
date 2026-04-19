@@ -12,10 +12,8 @@ import socketioLogo from './assets/tech_logo/Socketio.png'; // added import
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import cLogo from './assets/tech_logo/c.png';
-import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
 import pythonLogo from './assets/tech_logo/python.png';
-import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
@@ -24,39 +22,23 @@ import mcLogo from './assets/tech_logo/mc.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
-import csharpLogo from './assets/tech_logo/csharp.png';
 import zustandLogo from './assets/tech_logo/zustand.png'; // added import
 import shadcnLogo from './assets/tech_logo/shadcn.png'; // fixed import path
 import ChatAppLogo from './assets/work_logo/chataap.png';
 import PassOpLogo from './assets/work_logo/passop.png';
 import ItaskLogo from './assets/work_logo/itask.png';
 import NetflixLogo from './assets/work_logo/netflix.png';
+import jwtauth from './assets/tech_logo/jwt.png';
+import razorpayLogo from './assets/tech_logo/razorpay.png';
+import firebaseLogo from './assets/tech_logo/firebase.png';
+import FramerMotion from './assets/tech_logo/Framer.png';
+import interviewIQLogo from './assets/work_logo/interview.png';
 
-
-
-
-// Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
 import glaLogo from './assets/education_logo/gla_logo.png';
 import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
-
-// Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
-
-
 
 export const SkillsInfo = [
   {
@@ -70,7 +52,10 @@ export const SkillsInfo = [
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
       { name: 'Zustand', logo: zustandLogo },
-      { name: 'Shadcn UI', logo: shadcnLogo } // fixed property name to `logo`
+      { name: 'Shadcn UI', logo: shadcnLogo },
+      { name: 'Framer Motion', logo: FramerMotion },
+
+       // fixed property name to `logo`
     ],
   },
   {
@@ -81,6 +66,11 @@ export const SkillsInfo = [
       { name: 'Socket.IO', logo: socketioLogo }, // added Socket.IO logo
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
+      { name:'JWT Authentication',logo:jwtauth},
+      {name:'Razorpay',logo:razorpayLogo},
+      {name:'Firebase',logo:firebaseLogo}
+    
+
     ],
   },
   {
@@ -107,61 +97,61 @@ export const SkillsInfo = [
   },
 ];
 
-  export const experiences = [
-    {
-      id: 0,
-      img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    {
-      id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
-  ];
+  // export const experiences = [
+  //   {
+  //     id: 0,
+  //     img: webverseLogo,
+  //     role: "Fullstack Developer",
+  //     company: "Webverse Digital",
+  //     date: "April 2024 - Present",
+  //     desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+  //     skills: [
+  //       "HTML",
+  //       "CSS",
+  //       "JavaScript",
+  //       "React JS",
+  //       "TypeScript",
+  //       "Node JS",
+  //       "Tailwind CSS",
+  //       "MongoDb",
+  //       "Redux",
+  //       " Next Js",
+  //     ],
+  //   },
+  //   {
+  //     id: 1,
+  //     img: agcLogo,
+  //     role: "Fullstack Engineer",
+  //     company: "Agumentik Group of Companies",
+  //     date: "July 2023 - March 2024",
+  //     desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+  //     skills: [
+  //       "ReactJS",
+  //       "Redux",
+  //       "JavaScript",
+  //       "Tailwind CSS",
+  //       "HTML",
+  //       "CSS",
+  //       "SQL",
+  //     ],
+  //   },
+  //   {
+  //     id: 2,
+  //     img: newtonschoolLogo,
+  //     role: "Frontend Intern",
+  //     company: "Newton School",
+  //     date: "September 2021 - August 2022",
+  //     desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+  //     skills: [
+  //       "HTML",
+  //       "CSS",
+  //       "Javascript",
+  //       "Bootstrap",
+  //       "Figma",
+  //       "Material UI",
+  //     ],
+  //   },
+  // ];
   
   export const education = [
     {
@@ -203,18 +193,27 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
-    {
+     {
       id: 0,
+      title: "AI Interviewer Agent — InterviewIQ",
+      description:"Architected a production AI SaaS with a 6-model fallback chain (Gemini/Claude), achieving 99%+ uptime for resume parsing and automated interviews. I engineered a real-time Web Speech API voice pipeline with an AI evaluation engine and Recharts analytics dashboard. Security and monetization were handled via OAuth 2.0/JWT and a Razorpay credit system with HMAC-SHA256 verification, all deployed through Vercel CI/CD.",
+      image: interviewIQLogo,
+      tags: ["Node.js", "Express.js", "React.js", "MongoDB", "Gemini API", "Claude API", "Web Speech API", "OAuth 2.0", "Razorpay", "Recharts"],
+      github: "https://github.com/ShantannuDev2003/InterviewIQ",
+      webapp: "https://interviewiq-client-c870.onrender.com/",
+    },
+    {
+      id: 1,
       title: "Real Time Chat Application",
       description:"Developed a real-time chat platform that enables both personal and group conversations with a sleek, fully responsive user interface. Implemented secure authentication using JWT and integrated file handling through Multer for seamless image and document sharing. Leveraged Socket.io to power instant messaging with emoji support, while using Zustand for efficient and smooth state management. The result was a highly interactive, user-friendly, and scalable communication platform built with clean, modular, and maintainable code architecture.",
       image: ChatAppLogo,
-      tags: ["MongoDB", "Express.js", "React", "Node.js", "Zustand", "Socket.io"],
+      tags: ["Node.js", "Express.js", "React.js", "MongoDB", "Zustand", "Socket.io"],
       github: "https://github.com/ShantannuDev2003/chat-app-client",
       webapp: "https://chat-app-client-two-iota.vercel.app/",
     },
    
     {
-      id: 1,
+      id: 2,
        title: "Password Manager",
   description:
     "Developed a secure and feature-rich password management application with encrypted data storage and a modern user interface. Implemented core functionalities including create, update, delete, and clipboard copy for saved passwords. Integrated real-time toast notifications and animated visual feedback to deliver a smooth and responsive user experience.",
@@ -224,7 +223,7 @@ export const SkillsInfo = [
   webapp: "https://password-manager-usfv.vercel.app/",
     },
     {
-  id: 2,
+  id: 3,
   title: "iTask — Advanced To-Do Application",
   description:
     "Built a modern and responsive task management application with advanced features such as voice-driven task creation, drag-and-drop reordering, and a real-time productivity dashboard. Implemented customizable themes, dark/light mode, and category tagging for a personalized experience. Integrated overdue detection, completion tracking, and local persistence using localStorage to ensure offline functionality. Delivered a polished, interactive, and efficient productivity tool with a sleek React + Tailwind CSS frontend and clean, modular architecture.",
@@ -234,7 +233,7 @@ export const SkillsInfo = [
   webapp: "https://todo-list-nine-beta-22.vercel.app/",
 },
 {
-  id: 2,
+  id: 4,
   title: "Netflix Clone",
   description:
     "Built a responsive Netflix landing page using HTML and CSS, replicating the official website's design and layout. Implemented hero sections, feature showcases, FAQ accordion structure, and a clean dark-themed UI inspired by Netflix. Optimized for all screen sizes to deliver a smooth and realistic streaming platform interface.",
