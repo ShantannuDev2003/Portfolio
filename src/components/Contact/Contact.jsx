@@ -1,11 +1,10 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const form = useRef();
-  const [formData] = useState({ email: '', message: '' });
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -23,7 +22,6 @@ const Contact = () => {
       )
       .then(
         () => {
-          setIsSent(true);
           form.current.reset();
           toast.success("Message sent successfully! ✅", {
             position: "top-right",
