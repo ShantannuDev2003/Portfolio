@@ -34,7 +34,7 @@ import firebaseLogo from './assets/tech_logo/firebase.png';
 import FramerMotion from './assets/tech_logo/Framer.png';
 import interviewIQLogo from './assets/work_logo/interview.png';
 import LeadPilotLogo from './assets/work_logo/leadpilot.png';
-import Candidate from './assets/work_logo/candidate.png'
+import Candidate from './assets/work_logo/candidate.png';
 
 
 // Education Section Logo's
