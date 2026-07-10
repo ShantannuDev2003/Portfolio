@@ -33,6 +33,8 @@ import razorpayLogo from './assets/tech_logo/razorpay.png';
 import firebaseLogo from './assets/tech_logo/firebase.png';
 import FramerMotion from './assets/tech_logo/Framer.png';
 import interviewIQLogo from './assets/work_logo/interview.png';
+import LeadPilotLogo from './assets/work_logo/leadpilot.png';
+import Candidate from './assets/work_logo/candidate.png'
 
 
 // Education Section Logo's
@@ -253,9 +255,9 @@ export const SkillsInfo = [
 },
     {
   "id": 5,
-  "title": "CandidateIQ — Multi-Source Candidate Data Transformer",
+  "title": "Multi-Source Candidate Data Transformer",
   "description": "Built a production-grade ETL pipeline that ingests candidate data from multiple sources (ATS JSON, GitHub profile API), normalizes and deduplicates fields into one canonical profile, and scores each field with a confidence rating (0–1) with full provenance tracking. Engineered a runtime config-driven projection layer that reshapes output schema without code changes — supporting field remapping, E.164 phone normalization, ISO-3166 country codes, and YYYY-MM date standardization. Exposed via a REST API with a React dashboard featuring file upload, visual config builder, confidence bar charts, color-coded skill chips, and a searchable provenance table.",
-  "image": "CandidateIQLogo",
+  "image": "Candidate",
   "tags": [
     "Node.js",
     "ES Modules",
