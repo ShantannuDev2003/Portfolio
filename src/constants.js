@@ -271,7 +271,7 @@ export const SkillsInfo = [
     "Vitest",
     "JSON"
   ],
-  "github": "https://github.com/ShantannuDev2003/candidate-transformer"
+  "github": "https://github.com/ShantannuDev2003/candidate-transformer",
 },
 {
   id: 6,
