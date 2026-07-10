@@ -163,6 +163,7 @@ export const SkillsInfo = [
       desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
       degree: "Master of Computer Applications - MCA",
     },
+    
     {
       id: 1,
       img: bsaLogo,
@@ -203,7 +204,25 @@ export const SkillsInfo = [
       webapp: "https://interviewiq-client-c870.onrender.com/",
     },
     {
-      id: 1,
+  id: 1,
+  title: "LeadPilot AI - AI Enhanced CRM Platform",
+  description:"Built an AI-powered CRM platform that streamlines sales workflows through secure JWT authentication, Kanban-based drag-and-drop lead management, and comprehensive contact, task, and note management. Integrated OpenRouter LLMs to generate AI-powered lead summaries, personalized emails, and actionable sales insights. Developed an analytics dashboard with real-time KPIs including pipeline value, win rate, average deal size, and stage-wise conversions, while ensuring robust validation using Zod across REST APIs. Deployed the application with a scalable full-stack architecture using Vercel, Render, and MongoDB Atlas.",
+  image: LeadPilotLogo,
+  tags: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "OpenRouter AI",
+    "JWT",
+    "Tailwind CSS"  
+  ],
+  github: "https://github.com/ShantannuDev2003/LeadPilot-AI",
+  webapp: "https://lead-pilot-ai-mu.vercel.app/login"
+},
+   
+    {
+      id: 2,
       title: "Real Time Chat Application",
       description:"Developed a real-time chat platform that enables both personal and group conversations with a sleek, fully responsive user interface. Implemented secure authentication using JWT and integrated file handling through Multer for seamless image and document sharing. Leveraged Socket.io to power instant messaging with emoji support, while using Zustand for efficient and smooth state management. The result was a highly interactive, user-friendly, and scalable communication platform built with clean, modular, and maintainable code architecture.",
       image: ChatAppLogo,
@@ -213,7 +232,7 @@ export const SkillsInfo = [
     },
    
     {
-      id: 2,
+      id: 3,
        title: "Password Manager",
   description:
     "Developed a secure and feature-rich password management application with encrypted data storage and a modern user interface. Implemented core functionalities including create, update, delete, and clipboard copy for saved passwords. Integrated real-time toast notifications and animated visual feedback to deliver a smooth and responsive user experience.",
@@ -223,7 +242,7 @@ export const SkillsInfo = [
   webapp: "https://password-manager-usfv.vercel.app/",
     },
     {
-  id: 3,
+  id: 4,
   title: "iTask — Advanced To-Do Application",
   description:
     "Built a modern and responsive task management application with advanced features such as voice-driven task creation, drag-and-drop reordering, and a real-time productivity dashboard. Implemented customizable themes, dark/light mode, and category tagging for a personalized experience. Integrated overdue detection, completion tracking, and local persistence using localStorage to ensure offline functionality. Delivered a polished, interactive, and efficient productivity tool with a sleek React + Tailwind CSS frontend and clean, modular architecture.",
@@ -232,8 +251,28 @@ export const SkillsInfo = [
   github: "https://github.com/ShantannuDev2003/Todo-list",
   webapp: "https://todo-list-nine-beta-22.vercel.app/",
 },
+    {
+  "id": 5,
+  "title": "CandidateIQ — Multi-Source Candidate Data Transformer",
+  "description": "Built a production-grade ETL pipeline that ingests candidate data from multiple sources (ATS JSON, GitHub profile API), normalizes and deduplicates fields into one canonical profile, and scores each field with a confidence rating (0–1) with full provenance tracking. Engineered a runtime config-driven projection layer that reshapes output schema without code changes — supporting field remapping, E.164 phone normalization, ISO-3166 country codes, and YYYY-MM date standardization. Exposed via a REST API with a React dashboard featuring file upload, visual config builder, confidence bar charts, color-coded skill chips, and a searchable provenance table.",
+  "image": "CandidateIQLogo",
+  "tags": [
+    "Node.js",
+    "ES Modules",
+    "JavaScript",
+    "Commander.js",
+    "Axios",
+    "Zod",
+    "libphonenumber-js",
+    "date-fns",
+    "i18n-iso-countries",
+    "Vitest",
+    "JSON"
+  ],
+  "github": "https://github.com/ShantannuDev2003/candidate-transformer"
+},
 {
-  id: 4,
+  id: 6,
   title: "Netflix Clone",
   description:
     "Built a responsive Netflix landing page using HTML and CSS, replicating the official website's design and layout. Implemented hero sections, feature showcases, FAQ accordion structure, and a clean dark-themed UI inspired by Netflix. Optimized for all screen sizes to deliver a smooth and realistic streaming platform interface.",
